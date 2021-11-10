@@ -23,10 +23,12 @@ select * from address_book_service_database;
 # UC4 ----Edit Contact using name
 update address_book_service_database set last_name = 'pant'
        where first_name = 'kishor';
+select * from address_book_service_database;
 
 # UC5 ----delete contact using person name
 delete from address_book_service_database 
        where first_name = 'ram';
+select * from address_book_service_database;
 
 #UC6----- Retrieve Person belonging to a City or State from the Address Book
 select * from address_book_service_database where 
